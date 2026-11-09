@@ -18,7 +18,6 @@
 - [What the activity asked for](#what-the-activity-asked-for)
 - [Design](#design)
 - [Run it](#run-it)
-- [Source file headers](#source-file-headers)
 - [License](#license)
 - [Author](#author)
 
@@ -43,23 +42,6 @@ The look follows my [portfolio](https://evanexanes.github.io/): a cream canvas, 
 There is no build step. Download the folder and open `index.html` in a browser. Keep `fonts/` and `images/` next to the HTML files, because the pages load them by relative path.
 
 Outfit and Inter are bundled in `fonts/`, both under the SIL Open Font License, so the page makes no network requests.
-
-## Source file headers
-Every HTML and CSS file opens with the block below. A commit that changes a file adds a row to its history table.
-
-```text
-Program name: <file name>
-Description: <what the file does>
-Author: Exanes, Evan Prens
-Date Compiled: MM/DD/YYYY
-======================================================================
-Date           Description                      Programmer name
-======================================================================
-MM/DD/YYYY     Initial Implementation           EPPE
-======================================================================
-```
-
-`EPPE` is Evan Prens P. Exanes. A row reading `EPPE with Claude` marks a change written with AI help.
 
 ## License
 The code is released under the [MIT License](LICENSE). The portrait in `images/` is a personal photo and is not covered by it.
