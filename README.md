@@ -1,8 +1,35 @@
+<div align="center">
+
 # WEBPROG Activity 2: CSS profile page
 
-A three-page profile page for Evan Exanes, built for Web Programming (WEBPROG) at Asia Pacific College.
+**A three-page profile page built with the CSS Box Model and Flexbox only: no Grid, no JavaScript, no media queries.**
 
-**Pages:** `index.html` (Home), `skills.html` (Skills), `contact.html` (Contact).
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Course](https://img.shields.io/badge/Course-WEBPROG-555555)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2d4a7c.svg)](LICENSE)
+
+<img src="docs/screenshot.webp" alt="The profile page home: portrait, headline and the two buttons" width="860">
+
+</div>
+
+## Contents
+- [About](#about)
+- [What the activity asked for](#what-the-activity-asked-for)
+- [Design](#design)
+- [Run it](#run-it)
+- [Source file headers](#source-file-headers)
+- [License](#license)
+- [Author](#author)
+
+## About
+A profile page for Evan Exanes, built for Web Programming (WEBPROG) at Asia Pacific College.
+
+| Page | File |
+|---|---|
+| Home | `index.html` |
+| Skills | `skills.html` |
+| Contact | `contact.html` |
 
 ## What the activity asked for
 - **Box Model and Flexbox** on every page. All layouts use `flex-wrap`, `clamp()` and `min-width: 0`.
@@ -10,9 +37,32 @@ A three-page profile page for Evan Exanes, built for Web Programming (WEBPROG) a
 - No Grid, no JavaScript and no media queries.
 
 ## Design
-The look follows my portfolio: a cream canvas, black Outfit headings, hairline rules, soft shadows, and the denim gradient only on the main button, the closing card and the footer.
+The look follows my [portfolio](https://evanexanes.github.io/): a cream canvas, black Outfit headings, hairline rules, soft shadows, and the denim gradient only on the main button, the closing card and the footer.
 
 ## Run it
-No build step. Download the folder and open `index.html` in a browser. Keep `fonts/` and `images/` next to the HTML files, because the pages load them by relative path.
+There is no build step. Download the folder and open `index.html` in a browser. Keep `fonts/` and `images/` next to the HTML files, because the pages load them by relative path.
 
-Outfit and Inter are bundled in `fonts/` (both under the SIL Open Font License), so the page makes no network requests.
+Outfit and Inter are bundled in `fonts/`, both under the SIL Open Font License, so the page makes no network requests.
+
+## Source file headers
+Every HTML and CSS file opens with the block below. A commit that changes a file adds a row to its history table.
+
+```text
+Program name: <file name>
+Description: <what the file does>
+Author: Exanes, Evan Prens
+Date Compiled: MM/DD/YYYY
+======================================================================
+Date           Description                      Programmer name
+======================================================================
+MM/DD/YYYY     Initial Implementation           EPPE
+======================================================================
+```
+
+`EPPE` is Evan Prens P. Exanes. A row reading `EPPE with Claude` marks a change written with AI help.
+
+## License
+The code is released under the [MIT License](LICENSE). The portrait in `images/` is a personal photo and is not covered by it.
+
+## Author
+**Evan Prens P. Exanes** · [GitHub](https://github.com/evanexanes) · [Portfolio](https://evanexanes.github.io/)

@@ -1,3 +1,18 @@
+/*
+Program name: style.css
+Description: External stylesheet shared by all three pages. Lays everything out with
+   the Box Model and Flexbox (flex-wrap, clamp(), min-width: 0), with no Grid and no
+   media queries.
+Author: Exanes, Evan Prens
+Date Compiled: 11/06/2026
+======================================================================
+Date           Description                      Programmer name
+======================================================================
+11/06/2026     Initial Implementation           EPPE
+11/09/2026     Added file header                EPPE with Claude
+======================================================================
+*/
+
 /* CSS type 1 of 3: external. Linked from index.html, skills.html and contact.html. */
 
 /* Fonts load from the fonts folder, so nothing is fetched from the internet. */
