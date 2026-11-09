@@ -13,7 +13,13 @@
 
 </div>
 
+## What this shows
+- A three-page profile site in HTML and CSS only, with no JavaScript, no Grid and no media queries, as the activity required.
+- It uses all three kinds of CSS: external, internal and inline.
+- Layouts use Flexbox with `flex-wrap` and `clamp()`.
+
 ## Contents
+- [What this shows](#what-this-shows)
 - [About](#about)
 - [What the activity asked for](#what-the-activity-asked-for)
 - [Design](#design)
@@ -47,4 +53,4 @@ Outfit and Inter are bundled in `fonts/`, both under the SIL Open Font License, 
 The code is released under the [MIT License](LICENSE). The portrait in `images/` is a personal photo and is not covered by it.
 
 ## Author
-**Evan Prens P. Exanes** · [GitHub](https://github.com/evanexanes) · [Portfolio](https://evanexanes.github.io/)
+**Evan Prens P. Exanes** · [GitHub](https://github.com/evanexanes) · [Portfolio](https://evanexanes.github.io/) · [Contact](https://evanexanes.github.io/07-contact.html)
