@@ -16,3 +16,6 @@ The look follows my portfolio: a cream canvas, black Outfit headings, hairline r
 No build step. Download the folder and open `index.html` in a browser. Keep `fonts/` and `images/` next to the HTML files, because the pages load them by relative path.
 
 Outfit and Inter are bundled in `fonts/` (both under the SIL Open Font License), so the page makes no network requests.
+
+## Source file headers
+Every HTML and CSS file opens with a header block: program name, description, author, date compiled and a change history. A commit that changes a file adds a row to its history.
